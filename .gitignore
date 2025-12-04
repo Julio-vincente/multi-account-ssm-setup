@@ -1,0 +1,49 @@
+# Data files - CONTÉM INFORMAÇÕES SENSÍVEIS
+data/*.csv
+data/*.log
+data/*.txt
+data/*.json
+
+# Não ignorar README
+!data/README.md
+
+# Configurações - NUNCA COMMITAR
+config.py
+scripts/config.py
+
+# Configurações AWS - NUNCA COMMITAR
+.aws/
+*.pem
+*.key
+credentials
+config
+
+# IDs e informações de contas
+*account*.txt
+*profile*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*~
